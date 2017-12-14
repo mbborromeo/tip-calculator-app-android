@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tip Calculator Improved</string>
+    <string name="bill_amount_label">Bill Amount</string>
+    <string name="percent_label">Percent</string>
+    <string name="tip_label">Tip</string>
+    <string name="total_label">Total</string>
+    <string name="label_rounding_none">None</string>
+    <string name="label_round_tip">Tip</string>
+    <string name="label_round_total">Total</string>
+    <string name="label_rounding">Rounding</string>
+    <string name="label_split_bill">Split the bill?</string>
+    <string name="label_per_person">Per Person</string>
+    <string name="label_bill_amount">Bill Amount</string>
+
+    <string-array name="split_bill_array">
+        <item>No</item>
+        <item>2 people</item>
+        <item>3 people</item>
+        <item>4 people</item>
+    </string-array>
+</resources>

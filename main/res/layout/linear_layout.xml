@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewLabelBillAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_bill_amount" />
+
+    <EditText
+        android:id="@+id/editTextBillAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewLabelPercent"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/percent_label" />
+
+    <SeekBar
+        android:id="@+id/seekBarPercent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/textViewPercent"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewLabelTip"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="@string/tip_label" />
+
+    <TextView
+        android:id="@+id/textViewTip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewLabelRounding"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:text="@string/label_rounding" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRounding"
+        android:layout_width="match_parent"
+        android:layout_height="132dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonNone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/label_rounding_none"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_round_tip"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_round_total"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewLabelSplitBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_split_bill" />
+
+    <Spinner
+        android:id="@+id/spinnerSplitBill"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:entries="@array/split_bill_array" />
+
+    <TextView
+        android:id="@+id/textViewLabelTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_label" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewLabelPerPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_per_person" />
+
+    <TextView
+        android:id="@+id/textViewPerPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+</LinearLayout>

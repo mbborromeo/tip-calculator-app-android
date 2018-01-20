@@ -1,5 +1,5 @@
 # tip-calculator-app-android
-Tip Calculator Android mobile app - Android Studio, Java
+Tip Calculator mobile app - Android Studio, Java
 
 This is my code for my class assignment which we had to build any mobile app in Android Studio and Java.
 
